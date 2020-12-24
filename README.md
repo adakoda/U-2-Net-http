@@ -25,17 +25,18 @@ This repository requires folliwing libraries.
 - python 3.6.12
 - pytorch 1.7.1
 - torchvision 0.8.2
-- numpy 1.16.0
+- numpy 1.17.*
 - pillow 7.2.0
 - scikit-image 0.17.2
-- opencv-python 3.4.2.17
+- opencv-python 3.4.*
+- gdown 3.12.2
 - Flask 1.1.1
 - flask-cors 3.0.8
 - gunicorn 19.9.0
 
 Note: If you have conda, you can create conda environment by following steps.
 
-Example for Windows + CPU
+Example for CPU (Without GPU(CUDA))
 ```
 conda create -n u2net-http python=3.6
 activate u2net-http
@@ -55,7 +56,7 @@ Of course, this repository will also work on GPU and Mac/Linux environments. For
   cd U-2-Net-http
   ```
   ```
-  git clone https://github.com/adakoda/U-2-Net.git'
+  git clone https://github.com/adakoda/U-2-Net.git
   ```
 
 ### 3. Download pretrained model weight files
@@ -65,6 +66,6 @@ Of course, this repository will also work on GPU and Mac/Linux environments. For
   ```
   After finished python script, you will get these files.
   ```
-  U-2-Net-http/U-2-Net/saved_models/u2net/u2net.pth ... 168 MB
-  U-2-Net-http/U-2-Net/saved_models/u2net_portrait/u2net_portrait.pth ... 168 MB
+  U-2-Net-http/U-2-Net/saved_models/u2net/u2net.pth 
+  U-2-Net-http/U-2-Net/saved_models/u2net_portrait/u2net_portrait.pth
   ```
