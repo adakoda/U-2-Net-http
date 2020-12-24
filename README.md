@@ -50,7 +50,7 @@ Of course, this repository will also work on GPU and Mac/Linux environments. For
    ```
    git clone https://github.com/adakoda/U-2-Net-http.git
    ```
-- Move to cloned directory and clone additional ```U^2-Net``` repository
+- Move to cloned directory and clone additional [U^2-Net](https://github.com/adakoda/U-2-Net) repository
   ```
   cd U-2-Net-http
   ```
