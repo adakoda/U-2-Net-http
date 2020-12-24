@@ -43,6 +43,7 @@ activate u2net-http
 conda install pytorch torchvision cpuonly -c pytorch
 pip install -r requirements.txt
 ```
+Note: If you can not call ```activate```, try ```conda activate```.
 
 Of course, this repository will also work on GPU and Mac/Linux environments. For more information on how to install PyTorch, please refer to [PyTorch official site](https://pytorch.org/get-started/locally/).
 
